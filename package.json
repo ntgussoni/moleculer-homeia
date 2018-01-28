@@ -1,0 +1,32 @@
+{
+  "name": "moleculer-homeia",
+  "version": "1.0.0",
+  "description": "My Moleculer project",
+  "scripts": {
+    "dev": "moleculer-runner --repl --hot services",
+    "start": "moleculer-runner services",
+    "lint": "eslint services"
+  },
+  "keywords": [
+    "microservices",
+    "moleculer"
+  ],
+  "author": "",
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "moleculer-repl": "^0.3.0"
+  },
+  "dependencies": {
+    "arp-discovery": "https://github.com/ntgussoni/arp-discovery.git",
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "lodash": "^4.17.4",
+    "miio": "^0.15.2",
+    "moleculer": "^0.11.0",
+    "moleculer-web": "^0.6.0",
+    "nats": "^0.7.0"
+  },
+  "engines": {
+    "node": ">= 6.x.x"
+  }
+}
